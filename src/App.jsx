@@ -12,10 +12,12 @@ import Loader from './components/Loader';
 
 function App() {
   const [loading, setLoading] = useState(true);
-  const [darkMode, setDarkMode] = useState(() => {
-    const savedMode = localStorage.getItem('darkMode');
-    return savedMode ? JSON.parse(savedMode) : false;
-  });
+const [darkMode, setDarkMode] = useState(() => {
+  const savedMode = localStorage.getItem('darkMode');
+  if (savedMode !== null) return JSON.parse(savedMode);
+  // Default to dark mode
+  return true;
+});
 
   useEffect(() => {
     // Simulate loading time
