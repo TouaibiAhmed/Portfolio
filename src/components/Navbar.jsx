@@ -34,22 +34,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
         ))}
       {/* Theme Toggle */}
 
-  <button
-        onClick={() => setDarkMode(!darkMode)}
-        className="navbar-item flex items-center gap-2"
-      >
-        {darkMode ? (
-          <>
-            <FiSun className="navbar-icon text-yellow-400" />
-            <span className="hidden sm:inline">Light Mode</span>
-          </>
-        ) : (
-          <>
-            <FiMoon className="navbar-icon" />
-            <span className="hidden sm:inline">Dark Mode</span>
-          </>
-        )}
-      </button>
+
 
       </div>
 

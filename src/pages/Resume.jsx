@@ -83,7 +83,7 @@ const Resume = () => {
           className="flex justify-center mb-16"
         >
           <motion.a
-            href="/Touaibi_ahmed_cv.pdf"
+            href="/cvv.pdf"
             download="Ahmed-Touaibi-CV.pdf"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
