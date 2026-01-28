@@ -30,7 +30,7 @@ A modern, responsive portfolio website built with React.js, featuring smooth ani
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/TouaibiAhmed/portfolio.git
 cd portfolio
 ```
 
