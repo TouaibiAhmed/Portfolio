@@ -150,6 +150,37 @@ const projects = [
       '/projects/car-3.png',
 
     ]
+  },
+   {
+    id: 9,
+    title: 'AI Impact Prediction System',
+    category: 'ai',
+    image: '/projects/AI_IP.png',
+    description: 'The **AI Impact Prediction System** is a machine learning solution designed to quantify and categorize the potential for AI-driven automation across various professional roles. By analyzing job titles, industry domains, and task counts, the system provides both quantitative metrics and qualitative risk assessments to help organizations and individuals understand the future of work in the age of AI.',
+    technologies: ['Django', 'Streamlit', 'Jupyter' ],
+    github: 'https://github.com/TouaibiAhmed/AI-Impact-Prediction',
+    live: '',
+    images: [
+      '/projects/AI impact1.png',
+      '/projects/AI impact2.png'
+
+    ]
+  },
+     {
+    id: 10,
+    title: 'Rideshare',
+    category: 'web',
+    image: '/projects/rideshare.png',
+    description: 'A modern, full-stack ride-sharing platform connecting drivers with passengers.',
+    technologies: ['Django', 'React', 'Postgres' ],
+    github: 'https://github.com/TouaibiAhmed/Ride-Share',
+    live: '',
+    images: [
+      '/projects/rideshare1.png',
+      '/projects/rideshare2.png',
+      '/projects/rideshare3.png'
+
+    ]
   }
 ];
 
