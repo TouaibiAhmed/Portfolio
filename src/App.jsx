@@ -1,4 +1,3 @@
-// App.jsx
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { AnimatePresence } from 'framer-motion';
@@ -12,26 +11,23 @@ import Loader from './components/Loader';
 
 function App() {
   const [loading, setLoading] = useState(true);
-const [darkMode, setDarkMode] = useState(() => {
-  const savedMode = localStorage.getItem('darkMode');
-  if (savedMode !== null) return JSON.parse(savedMode);
-  // Default to dark mode
-  return true;
-});
+  const [darkMode, setDarkMode] = useState(() => {
+    const savedMode = localStorage.getItem('darkMode');
+    if (savedMode !== null) return JSON.parse(savedMode);
+    return true;
+  });
 
   useEffect(() => {
-    // Simulate loading time
-    setTimeout(() => {
-      setLoading(false);
-    }, 2000);
+    const timer = setTimeout(() => setLoading(false), 1200);
 
-    // Apply dark mode
     if (darkMode) {
       document.documentElement.classList.add('dark');
     } else {
       document.documentElement.classList.remove('dark');
     }
+
     localStorage.setItem('darkMode', JSON.stringify(darkMode));
+    return () => clearTimeout(timer);
   }, [darkMode]);
 
   if (loading) {
@@ -40,9 +36,9 @@ const [darkMode, setDarkMode] = useState(() => {
 
   return (
     <Router>
-      <div className="flex min-h-screen bg-background text-text">
+      <div className="app-shell">
         <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
-        <main className=" mainn flex-1 md:ml-64 transition-all duration-300">
+        <main className="app-main">
           <AnimatePresence mode="wait">
             <Routes>
               <Route path="/" element={<Home />} />

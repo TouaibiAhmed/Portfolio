@@ -6,182 +6,171 @@ const projects = [
   {
     id: 1,
     title: 'MediPro-Connect',
-    category: 'web', 
+    category: 'web',
+    thumbnail: 'MediPro',
     image: '/projects/medipro.png',
-    description: 'A comprehensive web solution and mobile application designed to streamline patient appointment scheduling and enhance doctor schedule management efficiently.',
-    technologies: ['  MERN Stack  ', '  React Native  ', '   Redux  ', '  Face++API  '],
+    description: 'A full healthcare platform that helps patients book appointments and lets doctors manage schedules with a more structured digital experience.',
+    technologies: ['MERN Stack', 'React Native', 'Redux', 'Face++ API'],
     github: 'https://github.com/TouaibiAhmed/MediProConnect-Frontend',
-    images: [
-      '/projects/medipro-1.png',
-      '/projects/medipro-2.png',
-      '/projects/medipro-3.png',
-      '/projects/medipro-4.png',
-            '/projects/medipro-5.jpg',
-      '/projects/medipro-6.png',
-      '/projects/medipro-7.png',
-      '/projects/medipro-8.png',
-      '/projects/medipro-9.jpg',
-
-
-    ]
-   
+    live: '',
+    images: ['/projects/medipro-1.png', '/projects/medipro-2.png', '/projects/medipro-3.png'],
   },
   {
     id: 2,
     title: 'My Coiffure',
     category: 'mobile',
+    thumbnail: 'Coiffure',
     image: '/projects/mycoiff.png',
-    description: 'A mobile application that streamlines beauty salon bookings with real-time appointment scheduling, service management, and customer profiles.',
-    technologies: ['   React Native  ', '   Node.js  ', '  Mongodb   ', '   Redux   '],
+    description: 'A beauty salon booking app focused on service discovery, scheduling, customer profiles, and a smooth appointment experience.',
+    technologies: ['React Native', 'Node.js', 'MongoDB', 'Redux'],
     github: 'https://github.com/TouaibiAhmed/My-Coiffure-Mobile-app-Backend',
-    images: [
-      '/projects/coiffure-2.jpg',
-      '/projects/coiffure-3.jpg',
-      '/projects/coiffure-5.jpg',
-        '/projects/coiffure-6.jpg',
-          '/projects/coiffure-7.jpg',
-    ]
+    live: '',
+    images: ['/projects/coiffure-2.jpg', '/projects/coiffure-3.jpg', '/projects/coiffure-5.jpg'],
   },
   {
     id: 3,
     title: 'Free Choice',
     category: 'web',
+    thumbnail: 'Quiz',
     image: '/projects/freechoice.png',
-    description: 'An interactive Quiz Game with 3D graphics, responsive UI, state management using Zustand, and smooth animations powered by Framer Motion.',
-    technologies: ['  React  ', '  Zustand  ', '  Framer Motion  ', '  Cannon.js  '],
+    description: 'An interactive quiz game with cinematic effects, responsive layout, and a playful experience for user engagement.',
+    technologies: ['React', 'Zustand', 'Framer Motion', 'Cannon.js'],
     github: 'https://github.com/TouaibiAhmed/Free-choise_quizz_game',
     live: 'https://free-choice-quiz.com',
-    images: [
-      '/projects/quiz-1.png',
-      '/projects/quiz-2.png',
-      '/projects/quiz-3.png',
-      '/projects/quiz-4.png',
-
-    ]
+    images: ['/projects/quiz-1.png', '/projects/quiz-2.png', '/projects/quiz-3.png'],
   },
   {
     id: 4,
     title: 'FoodHut JEE',
     category: 'web',
+    thumbnail: 'FoodHut',
     image: '',
-    description: 'A Java Enterprise Edition (JEE) web application for restaurant reservations implementing MVC architecture with servlets and controllers.',
-    technologies: ['  Java EE  ', '  Eclipse  ', '  MVC Pattern  ', '  Servlets  '],
+    description: 'A Java EE restaurant reservation system built around MVC architecture for table management and ordering workflows.',
+    technologies: ['Java EE', 'Eclipse', 'Servlets', 'MVC Pattern'],
     github: 'https://github.com/TouaibiAhmed/FoodHut',
     live: '',
-    images: [
-      '/projects/food-1.png',
-      '/projects/food-2.png',
-      '/projects/food-3.png',
-      '/projects/food-4.png',
-    ]
+    images: ['/projects/food-1.png', '/projects/food-2.png', '/projects/food-3.png'],
   },
   {
     id: 5,
     title: 'Nurse Care',
     category: 'design',
+    thumbnail: 'Nurse',
     image: '/projects/nurse.png',
-    description: 'Mobile app UI/UX design for nurses to manage patients with intuitive interfaces and efficient workflow.',
-    technologies: ['  Figma  ', '  UI/UX Design  ', '  Prototyping  '],
+    description: 'A healthcare-focused UX prototype for nurses to manage patient information and workflows in a structured and friendly interface.',
+    technologies: ['Figma', 'UI/UX Design', 'Prototyping'],
     github: '',
     live: '',
-    images: [
-      '/projects/nurse-1.png',
-      '/projects/nurse-2.png',
-      '/projects/nurse-3.png',
-            '/projects/nurse-4.png',
-      '/projects/nurse-5.png',
-      '/projects/nurse-6.png',
-      '/projects/nurse-7.png',
-
-            '/projects/nurse-8.png',
-
-
-    ]
+    images: ['/projects/nurse-1.png', '/projects/nurse-2.png', '/projects/nurse-3.png'],
   },
   {
     id: 6,
     title: 'AWS Chatbot',
     category: 'ai',
+    thumbnail: 'AWS',
     image: '',
-    description: 'A chatbot for answering questions about AWS certifications, providing accurate information and study resources.',
-    technologies: ['  Python  ', '  Gemini API  ', '   AstraDB  ', '    Gradio    '],
+    description: 'A chatbot designed to answer AWS certification questions and present study resources in an accessible, conversational way.',
+    technologies: ['Python', 'Gemini API', 'AstraDB', 'Gradio'],
     github: 'https://github.com/TouaibiAhmed/Pdf_chatbot',
     live: '',
-    images: [
-      '/projects/chatbot-1.png',
-      '/projects/chatbot-2.png',
-    
-    ]
+    images: ['/projects/chatbot-1.png', '/projects/chatbot-2.png'],
   },
   {
     id: 7,
     title: 'Bio4Seasons',
     category: 'web',
+    thumbnail: 'Bio',
     image: '/projects/bio.png',
-    description: 'An intuitive and efficient online platform for selling fresh products, connecting consumers with quality fruits and vegetables while supporting local producers.',
-    technologies: ['  MERN STACK  ', 'Figma', '  REDUX  '],
+    description: 'A fresh-produce e-commerce app that connects local agricultural products to end users with an easy shopping flow.',
+    technologies: ['MERN Stack', 'Redux', 'Figma'],
     github: 'https://github.com/TouaibiAhmed/Bio4Seasons-Frontend',
     live: '',
-    images: [
-      '/projects/bio-1.png',
-      '/projects/bio-2.png',
-      '/projects/bio-3.png',
-            '/projects/bio-4.png',
-      '/projects/bio-5.png',
-      '/projects/bio-6.png',
- 
-
-    ]
+    images: ['/projects/bio-1.png', '/projects/bio-2.png', '/projects/bio-3.png'],
   },
   {
     id: 8,
     title: 'Luxury Cars Rental',
     category: 'web',
+    thumbnail: 'Cars',
     image: '/projects/cars.png',
-    description: 'Frontend web application for luxury cars reservation with elegant design and seamless user experience.',
+    description: 'A luxury car booking website built for premium reservations with a refined and responsive user experience.',
     technologies: ['HTML', 'Tailwind CSS', 'JavaScript', 'Responsive Web'],
     github: 'https://github.com/TouaibiAhmed/Luxury-Cars-Rental',
     live: '',
-    images: [
-      '/projects/car-4.png',
-      '/projects/car-5.png',
-      '/projects/car-1.png',
-            '/projects/car-2.png',
-      '/projects/car-3.png',
-
-    ]
+    images: ['/projects/car-1.png', '/projects/car-2.png', '/projects/car-3.png'],
   },
-   {
+  {
     id: 9,
     title: 'AI Impact Prediction System',
     category: 'ai',
+    thumbnail: 'AI Impact',
     image: '/projects/AI_IP.png',
-    description: 'The **AI Impact Prediction System** is a machine learning solution designed to quantify and categorize the potential for AI-driven automation across various professional roles. By analyzing job titles, industry domains, and task counts, the system provides both quantitative metrics and qualitative risk assessments to help organizations and individuals understand the future of work in the age of AI.',
-    technologies: ['Django', 'Streamlit', 'Jupyter' ],
+    description: 'A machine learning system for evaluating how AI may affect different job roles by analyzing role types, industries, and task patterns.',
+    technologies: ['Django', 'Streamlit', 'Jupyter', 'Python'],
     github: 'https://github.com/TouaibiAhmed/AI-Impact-Prediction',
     live: '',
-    images: [
-      '/projects/AI impact1.png',
-      '/projects/AI impact2.png'
-
-    ]
+    images: ['/projects/AI impact1.png', '/projects/AI impact2.png'],
   },
-     {
+  {
     id: 10,
     title: 'Rideshare',
     category: 'web',
+    thumbnail: 'Ride',
     image: '/projects/rideshare.png',
-    description: 'A modern, full-stack ride-sharing platform connecting drivers with passengers.',
-    technologies: ['Django', 'React', 'Postgres' ],
+    description: 'A ride-sharing platform designed to connect drivers and passengers in a modern, full-stack application experience.',
+    technologies: ['Django', 'React', 'Postgres'],
     github: 'https://github.com/TouaibiAhmed/Ride-Share',
     live: '',
-    images: [
-      '/projects/rideshare1.png',
-      '/projects/rideshare2.png',
-      '/projects/rideshare3.png'
-
-    ]
-  }
+    images: ['/projects/rideshare1.png', '/projects/rideshare2.png', '/projects/rideshare3.png'],
+  },
+  {
+    id: 11,
+    title: 'AIOps Project',
+    category: 'ai',
+    thumbnail: 'AIOps',
+    image: '',
+    description: 'An end-to-end AIOps platform for infrastructure monitoring, anomaly detection, and incident classification using Prometheus, Docker, FastAPI, and machine learning models.',
+    technologies: ['Python', 'FastAPI', 'Docker', 'Prometheus', 'Grafana', 'Isolation Forest', 'Random Forest'],
+    github: 'https://github.com/TouaibiAhmed/AIOps-project',
+    live: '',
+    images: [],
+  },
+  {
+    id: 12,
+    title: 'Data Storytelling AI',
+    category: 'ai',
+    thumbnail: 'Story AI',
+    image: '',
+    description: 'An AI-powered storytelling dashboard that transforms uploaded datasets into business reports, insights, recommendations, and interactive visual narratives.',
+    technologies: ['React', 'Vite', 'FastAPI', 'LangChain', 'Python', 'Plotly'],
+    github: 'https://github.com/TouaibiAhmed/Data-StoryTelling',
+    live: '',
+    images: [],
+  },
+  {
+    id: 13,
+    title: 'House Rental',
+    category: 'mobile',
+    thumbnail: 'Rental',
+    image: '',
+    description: 'A mobile property rental app built to help users browse listings, explore homes, filter options, and manage rental decisions in a convenient experience.',
+    technologies: ['React Native', 'Expo', 'Firebase', 'Maps', 'Navigation'],
+    github: 'https://github.com/TouaibiAhmed/house-rental',
+    live: '',
+    images: [],
+  },
+  {
+    id: 14,
+    title: 'RenYou Chatbot',
+    category: 'ai',
+    thumbnail: 'RenYou',
+    image: '',
+    description: 'A local recommendation chatbot that helps users discover and understand products through an Ollama-powered conversational interface and catalog search.',
+    technologies: ['Python', 'FastAPI', 'Ollama', 'Scraper', 'Product Catalog'],
+    github: 'https://github.com/TouaibiAhmed/renyou-chatbot',
+    live: '',
+    images: [],
+  },
 ];
 
 const categories = [
@@ -195,268 +184,166 @@ const categories = [
 const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [selectedProject, setSelectedProject] = useState(null);
-  const [selectedImage, setSelectedImage] = useState(null); 
 
   const filteredProjects = selectedCategory === 'all'
     ? projects
-    : projects.filter(project => project.category === selectedCategory);
+    : projects.filter((project) => project.category === selectedCategory);
 
   return (
-    <div className="min-h-screen pt-24 pb-16">
-      <div className="container mx-auto px-4">
-        {/* Header Section */}
+    <div className="page-shell">
+      <div className="inner-section projects-section">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="max-w-3xl mx-auto text-center mb-16"
+          className="section-header"
         >
-          <h1 className="text-4xl md:text-5xl font-bold mb-8 text-gradient">
-            My Projects
-          </h1>
-          <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            Explore my latest work and personal projects. Each project represents a unique challenge and solution.
+          <span className="eyebrow">Selected work</span>
+          <h1>Projects with impact.</h1>
+          <p>
+            I build products that combine technical execution, design clarity, and business value.
           </p>
         </motion.div>
 
-        {/* Category Filter Buttons */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          className="max-w-4xl mx-auto mb-16"
+          transition={{ duration: 0.8, delay: 0.15 }}
+          className="filter-bar"
         >
-          <div className="flex flex-wrap justify-center gap-4">
-            {categories.map((category) => (
-              <motion.button
-                key={category.id}
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                onClick={() => setSelectedCategory(category.id)}
-                className={`px-6 py-3 rounded-full font-semibold transition-colors ${
-                  selectedCategory === category.id
-                    ? 'bg-primary text-white'
-                    : 'bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
-                }`}
-              >
-                {category.label}
-              </motion.button>
-            ))}
-          </div>
-        </motion.div>
-
-        {/* Projects Grid */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          className="max-w-6xl mx-auto"
-        >
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {filteredProjects.map((project) => (
-              <motion.div
-                key={project.id}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                whileHover={{ y: -10 }}
-                className="glass rounded-xl overflow-hidden cursor-pointer"
-                onClick={() => setSelectedProject(project)}
-              >
-
-<div className="image-container">
-  <img src={project.image} alt={project.title} className="project-image" />
-</div>
-
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-                  <p className="text-gray-600 dark:text-gray-300 mb-4 line-clamp-2">
-                    {project.description}
-                  </p>
-                  {project.period && (
-                    <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
-                      {project.period} {project.role && `• ${project.role}`}
-                    </p>
-                  )}
-                  <div className="mb-3">
-                    <span className="text-sm font-medium text-primary">Technologies:</span>
-                  </div>
-                  <div className="flex flex-wrap gap-2">
-                    {project.technologies.slice(0, 6).map((tech, index) => (
-                      <span
-                        key={index}
-                        className="px-3 py-1 rounded-full text-xs bg-primary/10 text-primary whitespace-nowrap"
-                      >
-                        {tech}
-                      </span>
-                    ))}
-                    {project.technologies.length > 6 && (
-                      <span className="px-3 py-1 rounded-full text-xs bg-primary/10 text-primary">
-                        +{project.technologies.length - 6}
-                      </span>
-                    )}
-                  </div>
-
-
-
-{/* Inside the project card, after the technologies section */}
-<div className="mt-4">
-  <motion.button
-    whileHover={{ scale: 1.05 }}
-    whileTap={{ scale: 0.95 }}
-    onClick={(e) => {
-      e.stopPropagation();
-      setSelectedProject(project);
-    }}
-    className="w-full px-4 py-2 bg-primary/10 text-primary rounded-lg font-medium hover:bg-primary/20 transition-colors"
-  >
-    Click to see details ↓
-  </motion.button>
-</div>
-
-
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </motion.div>
-
-        {/* Project Modal */}
-        <AnimatePresence>
-          {selectedProject && (
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50"
-              onClick={() => setSelectedProject(null)}
+          {categories.map((category) => (
+            <button
+              key={category.id}
+              type="button"
+              className={`filter-pill ${selectedCategory === category.id ? 'active' : ''}`}
+              onClick={() => setSelectedCategory(category.id)}
             >
-              <motion.div
-                initial={{ scale: 0.9, opacity: 0 }}
-                animate={{ scale: 1, opacity: 1 }}
-                exit={{ scale: 0.9, opacity: 0 }}
-                className="glass max-w-4xl w-full rounded-xl overflow-hidden max-h-[90vh] overflow-y-auto"
-                onClick={(e) => e.stopPropagation()}
-              >
-                <div className="modal-image-container">
-                  <img
-                    src={selectedProject.image}
-                    alt={selectedProject.title}
-                    className=" modal-image w-full h-48 object-contain bg-gray-100 dark:bg-gray-800"
-                  />
-                  <button
-                    onClick={() => setSelectedProject(null)}
-                    className="absolute top-4 right-4 p-2 rounded-full bg-black/50 text-white hover:bg-black/70 transition-colors"
-                  >
-                    <FiX className="text-xl" />
-                  </button>
+              {category.label}
+            </button>
+          ))}
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.25 }}
+          className="projects-grid"
+        >
+          {filteredProjects.map((project) => (
+            <motion.article
+              key={project.id}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              whileHover={{ y: -8 }}
+              className="glass-panel project-card"
+              onClick={() => setSelectedProject(project)}
+            >
+              <div className={`project-image-wrap ${!project.image ? 'placeholder' : ''}`}>
+                {project.image ? (
+                  <img src={project.image} alt={project.title} className="project-image" />
+                ) : (
+                  <div className="project-placeholder">{project.thumbnail}</div>
+                )}
+              </div>
+
+              <div className="project-content">
+                <div className="project-meta-row">
+                  <span className="project-tag">{project.category}</span>
                 </div>
-                <div className="p-8">
-                  <h2 className="text-3xl font-bold mb-4">{selectedProject.title}</h2>
-                  {selectedProject.period && (
-                    <p className="text-gray-500 dark:text-gray-400 mb-2">
-                      {selectedProject.period} {selectedProject.role && `• ${selectedProject.role}`}
-                    </p>
-                  )}
-                  <p className="text-gray-600 dark:text-gray-300 mb-6">
-                    {selectedProject.description}
-                  </p>
-                  
-                  <div className="mb-6">
-                    <h3 className="text-lg font-semibold mb-3 text-primary">Technologies</h3>
-                    <div className="flex flex-wrap gap-2">
-                      {selectedProject.technologies.map((tech, index) => (
-                        <span
-                          key={index}
-                          className="px-3 py-1 rounded-full text-sm bg-primary/10 text-primary whitespace-nowrap"
-                        >
-                          {tech}
-                        </span>
+                <h3>{project.title}</h3>
+                <p>{project.description}</p>
+
+                <div className="tech-stack">
+                  {project.technologies.slice(0, 5).map((tech, index) => (
+                    <span key={index}>{tech}</span>
+                  ))}
+                </div>
+
+                <button
+                  type="button"
+                  className="project-button"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setSelectedProject(project);
+                  }}
+                >
+                  See details
+                </button>
+              </div>
+            </motion.article>
+          ))}
+        </motion.div>
+      </div>
+
+      <AnimatePresence>
+        {selectedProject && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="project-modal-backdrop"
+            onClick={() => setSelectedProject(null)}
+          >
+            <motion.div
+              initial={{ scale: 0.94, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.94, opacity: 0 }}
+              className="glass-panel project-modal"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <button type="button" className="modal-close" onClick={() => setSelectedProject(null)}>
+                <FiX />
+              </button>
+
+              <div className={`project-modal-cover ${!selectedProject.image ? 'placeholder' : ''}`}>
+                {selectedProject.image ? (
+                  <img src={selectedProject.image} alt={selectedProject.title} />
+                ) : (
+                  <div>{selectedProject.thumbnail}</div>
+                )}
+              </div>
+
+              <div className="project-modal-body">
+                <span className="project-tag">{selectedProject.category}</span>
+                <h2>{selectedProject.title}</h2>
+                <p>{selectedProject.description}</p>
+
+                <div className="tech-stack large">
+                  {selectedProject.technologies.map((tech, index) => (
+                    <span key={index}>{tech}</span>
+                  ))}
+                </div>
+
+                {selectedProject.images.length > 0 && (
+                  <div className="modal-gallery">
+                    <h3>Project previews</h3>
+                    <div className="gallery-row">
+                      {selectedProject.images.map((image, index) => (
+                        <img key={index} src={image} alt={`${selectedProject.title} preview ${index + 1}`} />
                       ))}
                     </div>
                   </div>
-                  
-         {/* Replace the current screenshots section with this */}
-<div className="mb-8">
-  <h3 className="text-lg font-semibold mb-3 text-primary">Screenshots</h3>
-  <div className="horizontal-gallery">
-    {selectedProject.images.map((image, index) => (
-      <div 
-        key={index} 
-        className="gallery-item"
-        onClick={(e) => {
-          e.stopPropagation();
-          setSelectedImage(image);
-        }}
-      >
-        <img
-          src={image}
-          alt={`${selectedProject.title} screenshot ${index + 1}`}
-          className="gallery-image"
-        />
-      </div>
-    ))}
-  </div>
-</div>
-                  
-                  <div className="flex justify-end space-x-4">
-                    <motion.a
-                      href={selectedProject.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      whileHover={{ scale: 1.05 }}
-                      whileTap={{ scale: 0.95 }}
-                      className="flex items-center px-6 py-3 rounded-lg bg-gray-800 text-white font-semibold hover:bg-gray-700 transition-colors"
-                    >
-                      <FiGithub className="mr-2" />
-                      View Code
-                    </motion.a>
-                    {selectedProject.live && (
-                      <motion.a
-                        href={selectedProject.live}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
-                        className="flex items-center px-6 py-3 rounded-lg bg-primary text-white font-semibold hover:bg-primary/90 transition-colors"
-                      >
-                        <FiExternalLink className="mr-2" />
-                        Live Demo
-                      </motion.a>
-                    )}
-                  </div>
+                )}
+
+                <div className="modal-actions">
+                  {selectedProject.github && (
+                    <a href={selectedProject.github} target="_blank" rel="noreferrer" className="primary-button small">
+                      <FiGithub />
+                      View code
+                    </a>
+                  )}
+                  {selectedProject.live && (
+                    <a href={selectedProject.live} target="_blank" rel="noreferrer" className="secondary-button small">
+                      <FiExternalLink />
+                      Live demo
+                    </a>
+                  )}
                 </div>
-              </motion.div>
+              </div>
             </motion.div>
-          )}
-
-
-{/* Image Popup Modal */}
-<AnimatePresence>
-  {selectedImage && (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-      className="image-popup-overlay fixed inset-0 z-[100] flex items-center justify-center bg-black/90"
-      onClick={() => setSelectedImage(null)}
-    >
-      <div className="image-popup-content relative max-w-[90vw] max-h-[90vh]">
-        
-        <motion.img
-          src={selectedImage}
-          alt="Enlarged project screenshot"
-          className="image-popup-img max-w-full max-h-[80vh] object-contain"
-          initial={{ scale: 0.9 }}
-          animate={{ scale: 1 }}
-          exit={{ scale: 0.9 }}
-        />
-      </div>
-    </motion.div>
-  )}
-</AnimatePresence>
-
-        </AnimatePresence>
-      </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 };

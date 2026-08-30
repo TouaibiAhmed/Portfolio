@@ -1,23 +1,53 @@
 import { motion } from 'framer-motion';
-import { FiDownload, FiCode, FiDatabase, FiLayout, FiSmartphone } from 'react-icons/fi';
+import { FiDownload, FiCode, FiDatabase, FiLayout, FiSmartphone, FiZap, FiTrendingUp } from 'react-icons/fi';
 
 const skills = [
   {
     category: 'Frontend Development',
     icon: <FiCode />,
     items: [
-      'ReactJs',
-      'Angular',
-      
+      'React & React Native',
+      'Vite',
+      'TypeScript',
+      'Tailwind CSS',
+      'Framer Motion',
+      'Next.js',
     ],
   },
   {
     category: 'Backend Development',
     icon: <FiDatabase />,
     items: [
-      'NodeJs',
-      'Springboot',
-      'NestJs',
+      'Node.js & Express',
+      'Python & FastAPI',
+      'Django',
+      'Spring Boot',
+      'MongoDB',
+      'PostgreSQL',
+    ],
+  },
+  {
+    category: 'AI & Machine Learning',
+    icon: <FiZap />,
+    items: [
+      'Python',
+      'TensorFlow',
+      'LangChain',
+      'Isolation Forest',
+      'Random Forest',
+      'Ollama',
+    ],
+  },
+  {
+    category: 'Data Science & Analytics',
+    icon: <FiTrendingUp />,
+    items: [
+      'Data Analysis',
+      'Plotly Visualization',
+      'Jupyter Notebooks',
+      'Streamlit',
+      'Anomaly Detection',
+      'Incident Classification',
     ],
   },
   {
@@ -26,8 +56,10 @@ const skills = [
     items: [
       'Figma',
       'Adobe XD',
-      'Photoshop',
-      'Illustrator',
+      'Prototyping',
+      'User Research',
+      'Wireframing',
+      'Design Systems',
     ],
   },
   {
@@ -35,8 +67,11 @@ const skills = [
     icon: <FiSmartphone />,
     items: [
       'React Native',
+      'Expo',
+      'Firebase',
       'Flutter',
-      'Android Development',
+      'Maps Integration',
+      'Real-time Features',
     ],
   },
 ];
