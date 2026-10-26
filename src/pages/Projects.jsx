@@ -131,7 +131,7 @@ const projects = [
     image: '',
     description: 'An end-to-end AIOps platform for infrastructure monitoring, anomaly detection, and incident classification using Prometheus, Docker, FastAPI, and machine learning models.',
     technologies: ['Python', 'FastAPI', 'Docker', 'Prometheus', 'Grafana', 'Isolation Forest', 'Random Forest'],
-    github: 'hhttps://github.com/TouaibiAhmed/AIOps-System',
+    github: 'https://github.com/TouaibiAhmed/AIOps-System',
     live: '',
     images: [],
   },
